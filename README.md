@@ -51,7 +51,7 @@ __nonlinearly separable data sets:__ </br>
 ![image](https://user-images.githubusercontent.com/78349342/168133699-28d6cae6-4597-4b62-8401-ade2471c37a5.png) </br>
 
 For the linearly separable data set we got nearly the same result as the Adaline algorithm gave us. Also for the set with the small range of radii, but for the bigger range we got way better results than with the Adaline algorithm.</br>
-In this part we looked in to each neuron and saw how it "sees the data, for example of the first data set: </br>
+In this part we looked in to each neuron and saw how it "sees" the data, for example of the first data set: </br>
 ![image](https://user-images.githubusercontent.com/78349342/168134422-6d2c816e-855a-4b47-844a-7e19f6133cfa.png) </br>
 And from the second: </br>
 ![image](https://user-images.githubusercontent.com/78349342/168134692-2ed358cd-0608-4085-ba5b-a092422135dc.png) </br>
@@ -68,10 +68,10 @@ __nonlinearly separable data sets:__ </br>
 
 For the linearly separable data set we got nearly the same result as the Back-propagation algorithm gave us. For the set with the small range of radii we didnt got any better result, also for the bigger range we didnt got some better results. </br>
 
-In this part we looked in to each neuron of the how it "sees" the data, for example of the second set - which we were more interested in: </br>
+In this part we looked in to each neuron of how it "sees" the data, for example of the second set - which we were more interested in: </br>
 ![image](https://user-images.githubusercontent.com/78349342/168137975-bbcdb07c-444a-411f-86ca-906a66997121.png) </br>
 
-We can see how they actuall "see" a circle!
+We can see how they actually "see" a circle!
 
 
 
