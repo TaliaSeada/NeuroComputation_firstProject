@@ -1,4 +1,4 @@
-# Neuro - Computation First Project
+# NeuroComputation First Project
 ### The main purpose of this project is to get to know the Adaline algorithm and the Back Propagation algorithm.
 <b> Adaline - https://en.wikipedia.org/wiki/ADALINE </br>
 Back Propagation - https://en.wikipedia.org/wiki/Backpropagation </b> </br>
