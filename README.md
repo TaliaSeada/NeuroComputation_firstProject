@@ -1,10 +1,24 @@
 # Neuro - Computation First Project
 ### The main purpose of this project is to get to know the Adaline algorithm and the Back Propagation algorithm.
+<b> Adaline - https://en.wikipedia.org/wiki/ADALINE </br>
+Back Propagation - https://en.wikipedia.org/wiki/Backpropagation </b> </br>
+__In this project we built the algorithms, tested them and improved them in the process.__ </br>
+
+_Content_:
+* Building the data
+* Parts A and B:
+  1. Part A
+  2. Part B
+* Parts C and D:
+  1. Part C
+  2. Part D
+
+## _Building the data_:
 First, we built the functions to create data sets and test sets to work with. The base of each functiom is as follows: </br>
 We choose x, y <= 100 randomly. The data is all data points <x,y> where x is of the form m/100, where m is an integer between -1000 and +1000, and y is of the form n/100, where n is an integer between -1000 and +1000.
 
-Then we worked on Parts A and B. </br>
-In this part we implemented the Adaline learning algorithm and showed how it generalizes to develop a decision that works on all the set. </br>
+## _Parts A and B_:
+In this part of the project we implemented the Adaline learning algorithm and showed how it generalizes to develop a decision that works on all the set. </br>
 <b> Part A </b> </br>
 In this part we chose every point such that when it's 'y' value is grater than 1 the 'value' of this point is '1' else its '-1'. </br>
 For example: </br>
@@ -25,7 +39,7 @@ Obviously most of the points got the value of '-1', because the range we gave fo
 We tried a bigger range, then we got "better" results: </br>
 ![image](https://user-images.githubusercontent.com/78349342/168130163-f22a5d63-2fd0-474f-be61-35c7b97bf1f8.png) </br>
 
-
+## _Parts C and D_:
 
 
 
