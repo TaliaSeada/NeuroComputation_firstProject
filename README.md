@@ -40,6 +40,23 @@ We tried a bigger range, then we got "better" results: </br>
 ![image](https://user-images.githubusercontent.com/78349342/168130163-f22a5d63-2fd0-474f-be61-35c7b97bf1f8.png) </br>
 
 ## _Parts C and D_:
+In this part of the project we implemented the Back-propagation learning algorithm and showed how it generalizes to develop a decision that works on all the set. </br>
+<b> Part C </b> </br>
+In this part we used the same data sets we created in part A and B. Then we trained the training set on the  Back-propagation algorithm we implemented.</br>
+Here are some of the results we got: </br>
+![image](https://user-images.githubusercontent.com/78349342/168133924-b737e38a-11bd-491b-be9d-ff1f41a51527.png) </br>
+![image](https://user-images.githubusercontent.com/78349342/168133959-f8904080-4c05-443f-b547-433c48df1a56.png) </br>
+![image](https://user-images.githubusercontent.com/78349342/168133699-28d6cae6-4597-4b62-8401-ade2471c37a5.png) </br>
+
+For the linearly separable data set we got nearly the same result as the adaline algorithm gave us. Also for the set with the small range of radii, but for the bigger range we got way better results than with the Adaline algorithm.</br>
+In this part we looked in to each neuron and saw how it "sees" the data, for example of the first data set: </br>
+![image](https://user-images.githubusercontent.com/78349342/168134422-6d2c816e-855a-4b47-844a-7e19f6133cfa.png) </br>
+And from the second: </br>
+![image](https://user-images.githubusercontent.com/78349342/168134692-2ed358cd-0608-4085-ba5b-a092422135dc.png) </br>
+ We can see the nonlinear shapes the neuron "see". </br>
+ 
+ <b> Part D </b> </br>
+
 
 
 
