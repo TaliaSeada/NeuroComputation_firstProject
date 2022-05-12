@@ -44,18 +44,36 @@ In this part of the project we implemented the Back-propagation learning algorit
 <b> Part C </b> </br>
 In this part we used the same data sets we created in part A and B. Then we trained the training set on the  Back-propagation algorithm we implemented.</br>
 Here are some of the results we got: </br>
+__linearly separable data set:__ </br>
 ![image](https://user-images.githubusercontent.com/78349342/168133924-b737e38a-11bd-491b-be9d-ff1f41a51527.png) </br>
+__nonlinearly separable data sets:__ </br>
 ![image](https://user-images.githubusercontent.com/78349342/168133959-f8904080-4c05-443f-b547-433c48df1a56.png) </br>
 ![image](https://user-images.githubusercontent.com/78349342/168133699-28d6cae6-4597-4b62-8401-ade2471c37a5.png) </br>
 
-For the linearly separable data set we got nearly the same result as the adaline algorithm gave us. Also for the set with the small range of radii, but for the bigger range we got way better results than with the Adaline algorithm.</br>
-In this part we looked in to each neuron and saw how it "sees" the data, for example of the first data set: </br>
+For the linearly separable data set we got nearly the same result as the Adaline algorithm gave us. Also for the set with the small range of radii, but for the bigger range we got way better results than with the Adaline algorithm.</br>
+In this part we looked in to each neuron and saw how it "sees the data, for example of the first data set: </br>
 ![image](https://user-images.githubusercontent.com/78349342/168134422-6d2c816e-855a-4b47-844a-7e19f6133cfa.png) </br>
 And from the second: </br>
 ![image](https://user-images.githubusercontent.com/78349342/168134692-2ed358cd-0608-4085-ba5b-a092422135dc.png) </br>
- We can see the nonlinear shapes the neuron "see". </br>
+ We can see the nonlinear shapes the neurons "see". </br>
  
  <b> Part D </b> </br>
+In this part we used the traind neurons from the next to last level of Part C as input and only an Adaline for the output. We gave the Adaline the output of the neurons from Part C in the level below the output, and trained only the Adaline. </br>
+Here are some of the results we got: </br>
+__linearly separable data set:__ </br>
+![image](https://user-images.githubusercontent.com/78349342/168136539-0d3fcfef-121c-4d35-bc6c-1c7f5c122fc4.png) </br>
+__nonlinearly separable data sets:__ </br>
+![image](https://user-images.githubusercontent.com/78349342/168136617-ec9eabb8-65c2-4959-a850-d50fa79c9e8a.png) </br>
+![image](https://user-images.githubusercontent.com/78349342/168136753-cfe9474c-d9fa-4325-a083-d975748d4c37.png) </br>
+
+For the linearly separable data set we got nearly the same result as the Back-propagation algorithm gave us. For the set with the small range of radii we didnt got any better result, also for the bigger range we didnt got some better results. </br>
+
+In this part we looked in to each neuron of the how it "sees" the data, for example of the second set - which we were more interested in: </br>
+![image](https://user-images.githubusercontent.com/78349342/168137975-bbcdb07c-444a-411f-86ca-906a66997121.png) </br>
+
+We can see how they actuall "see" a circle!
+
+
 
 
 
